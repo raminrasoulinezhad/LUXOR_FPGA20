@@ -2,8 +2,7 @@
 
 LUXOR is a set of proposed FPGA logic cell modifications to existing Intel/Xilinx FPGAs. These modifications provide significant area/performance improvements to modern applications while maintaining backward compatibility. This repository contains the source code for the LUXOR logic cell designs, as well as code to reproduce all experiments that demonstrate the benefits from LUXOR.
 
-![alt-text-1](XLUXOR+.jpg "X-LUXOR+") ![alt-text-2](ILUXOR+.jpg "I-LUXOR+")
-
+<img src="XLUXOR+.jpg"/> <img src="ILUXOR+.jpg"/> 
 ## Directory structure
 
 ```HDL/``` : Verilog source code of baseline/LUXOR/LUXOR+ designs. LUXOR/LUXOR+

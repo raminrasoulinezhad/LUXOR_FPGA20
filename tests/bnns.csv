@@ -1,0 +1,44 @@
+########################## README ##############################
+# This file contains all the input Binary Neural Network (BNN)
+# test cases that were used in the paper to evaluate compressor
+# tree synthesis on different proposed FPGA architectures (and
+# also baselines).
+################################################################
+
+################################################################
+# BNNs (primary compression stage + 2-column popcounting)
+#
+# A primary compression stage is required that creates a
+# 2-column popcount of sums and carries. The cost of this stage
+# is added as a comment for each test case.
+################################################################
+
+# Kernel size: 3, Channel size: 64
+# For baselines, cost of primary compression: 384 LUTs
+# For LUXOR/LUXOR+, cost of primary compression: 192 LUTs
+10,2,192,192
+
+# BNN
+# Kernel size: 3, Channel size: 128
+# For baselines, cost of primary compression: 768 LUTs
+# For LUXOR/LUXOR+, cost of primary compression: 384 LUTs
+11,2,384,384
+
+# BNN
+# Kernel size: 3, Channel size: 256
+# For baselines, cost of primary compression: 1536 LUTs
+# For LUXOR/LUXOR+, cost of primary compression: 768 LUTs
+12,2,768,768
+
+# BNN
+# Kernel size: 3, Channel size: 512
+# For baselines, cost of primary compression: 3072 LUTs
+# For LUXOR/LUXOR+, cost of primary compression: 1536 LUTs
+13,2,1536,1536
+
+# BNN
+# Kernel size: 3, Channel size: 1024
+# For baselines, cost of primary compression: 6144 LUTs
+# For LUXOR/LUXOR+, cost of primary compression: 3072 LUTs
+14,2,3072,3072
+

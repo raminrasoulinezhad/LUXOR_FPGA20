@@ -1,0 +1,44 @@
+########################## README ##############################
+# This file contains all the input single-column popcounting
+# test cases that were used in the paper to evaluate compressor
+# tree synthesis on different proposed FPGA architectures (and
+# also baselines).
+################################################################
+
+################################################################
+# Popcounting (single-column)
+################################################################
+
+# Popcounting of 4 dots
+3,1,4
+
+# Popcounting of 8 dots
+4,1,8
+
+# Popcounting of 16 dots
+5,1,16
+
+# Popcounting of 32 dots
+6,1,32
+
+# Popcounting of 64 dots
+7,1,64
+
+# Popcounting of 128 dots
+8,1,128
+
+# Popcounting of 256 dots
+9,1,256
+
+# Popcounting of 512 dots
+10,1,512
+
+# Popcounting of 1024 dots
+11,1,1024
+
+# Popcounting of 2048 dots
+12,1,2048
+
+# Popcounting of 4096 dots
+13,1,4096
+

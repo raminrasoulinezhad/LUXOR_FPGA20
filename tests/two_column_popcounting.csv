@@ -1,0 +1,44 @@
+########################## README ##############################
+# This file contains all the input two-column popcounting test
+# cases that were used in the paper to evaluate compressor tree
+# synthesis on different proposed FPGA architectures (and also
+# baselines).
+################################################################
+
+################################################################
+# Two-column Popcounting
+################################################################
+
+Two columns of 4 dots each
+5,2,4,4
+
+# Two columns of 8 dots each
+6,2,8,8
+
+# Two columns of 16 dots each
+7,2,16,16
+
+# Two columns of 32 dots each
+8,2,32,32
+
+# Two columns of 64 dots each
+9,2,64,64
+
+# Two columns of 128 dots each
+10,2,128,128
+
+# Two columns of 256 dots each
+11,2,256,256
+
+# Two columns of 512 dots each
+12,2,512,512
+
+# Two columns of 1024 dots each
+13,2,1024,1024
+
+# Two columns of 2048 dots each
+14,2,2048,2048
+
+# Two columns of 4096 dots each
+15,2,4096,4096
+

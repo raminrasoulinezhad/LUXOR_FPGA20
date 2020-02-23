@@ -1,0 +1,19 @@
+########################## README ##############################
+# GPCs for I-LUXOR+ FPGA architecture (Table 4 in paper)
+#   -> LUT-based designs
+################################################################
+
+# 'Bypass' wire to allow unmapped dots to propagate to the next stage
+Bypass,1,1,1,1,0.0001
+
+# The basic full-adder as a GPC 
+FA,1,2,3,1,1,1
+
+# GPCs from reference [20]
+C15:111,2,3,5,1,1,1,1,3
+C23:111,2,3,3,2,1,1,1,2 
+
+# GPCs improved by LUXOR+ (vs. baseline)
+C6:111,1,3,6,1,1,1,2
+C25:121,2,3,5,2,1,2,1,1
+

@@ -1,0 +1,56 @@
+########################## README ##############################
+# This file contains all the input multi-operand addition test
+# cases that were used in the paper to evaluate compressor tree
+# synthesis on different proposed FPGA architectures (and also
+# baselines).
+################################################################
+
+################################################################
+# Multi-operand addition
+################################################################
+
+# Sum of 2 2-bit inputs
+3,2,2,2
+
+# Sum of 3 3-bit inputs
+5,3,3,3,3
+
+# Sum of 4 4-bit inputs
+6,4,4,4,4,4
+
+# Sum of 5 5-bit inputs
+8,5,5,5,5,5,5
+
+# Sum of 6 6-bit inputs
+9,6,6,6,6,6,6,6
+
+# Sum of 7 7-bit inputs
+10,7,7,7,7,7,7,7,7
+
+# Sum of 8 8-bit inputs
+11,8,8,8,8,8,8,8,8,8
+
+# Sum of 9 9-bit inputs
+13,9,9,9,9,9,9,9,9,9,9
+
+# Sum of 10 10-bit inputs
+14,10,10,10,10,10,10,10,10,10,10,10
+
+# Sum of 11 11-bit inputs
+15,11,11,11,11,11,11,11,11,11,11,11,11
+
+# Sum of 12 12-bit inputs
+16,12,12,12,12,12,12,12,12,12,12,12,12,12
+
+# Sum of 13 13-bit inputs
+17,13,13,13,13,13,13,13,13,13,13,13,13,13,13
+
+# Sum of 14 14-bit inputs
+18,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14
+
+# Sum of 15 15-bit inputs
+19,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15
+
+# Sum of 16 16-bit inputs
+20,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16
+

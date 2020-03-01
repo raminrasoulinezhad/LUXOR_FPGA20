@@ -80,5 +80,21 @@ LUXOR+ logic slices.
 
 This work will be published in the upcoming FPGA'20 conference proceedings. The paper can be cited as follows:
 
-S. Rasoulinezhad, Siddhartha, H. Zhou, L. Wang, D. Boland and P. Leong "LUXOR: An FPGA Logic Cell Architecture for Efficient
-Compressor Tree Implementations" Proceedings of the 2020 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)
+```
+@inproceedings{10.1145/3373087.3375303,
+author = {Rasoulinezhad, Seyedramin and Siddhartha and Zhou, Hao and Wang, Lingli and Boland, David and Leong, Philip H. W.},
+title = {LUXOR: An FPGA Logic Cell Architecture for Efficient Compressor Tree Implementations},
+year = {2020},
+isbn = {9781450370998},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3373087.3375303},
+doi = {10.1145/3373087.3375303},
+booktitle = {The 2020 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},
+pages = {161–171},
+numpages = {11},
+keywords = {fpga architectures, logic elements, compressor trees},
+location = {Seaside, CA, USA},
+series = {FPGA ’20}
+}
+```
